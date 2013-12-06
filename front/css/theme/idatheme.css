@@ -266,6 +266,7 @@ body {
 .reveal .justleft-text{width: 78%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .quitmargin{margin-top:75px;}
+.reveal .to-down{position: relative; top: 170px; left: 5%;}
 .about{display:block;text-align: left; color: black;}
 .about h5{color:#CA4E31; display:block; text-align:left; margin-bottom: 5px; font-family:'latobold'; font-size:25px;}
 .about p{color:#6E6E6E; display:block; text-align:left; margin-bottom: 25px; font-family:'latoregular'; font-size:21px;}
@@ -275,7 +276,7 @@ body {
 .reveal .list-long{width:90%; position: relative;bottom: 70px;color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none;}
 .reveal .list-long ul li{margin:35px 0;}
 .reveal .list-long img{margin: 25px 10px -15px -61px;}
-.reveal .list-single{width:40%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none; margin: 130px 7% 0 6%;}
+.reveal .list-single{width:40%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none; margin: 130px 7% 0 3%;}
 .reveal .list-single ul li{margin:35px 0;}
 .reveal .list-single img{margin: 25px 10px -15px -61px;}
 .graphic{width:70%; float: left;}
