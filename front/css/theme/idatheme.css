@@ -280,7 +280,12 @@ body {
 .reveal .list-single ul li{margin:35px 0;}
 .reveal .list-single img{margin: 25px 10px -15px -61px;}
 .graphic{width:70%; float: left;}
-.element-title{}
+.reveal .takebottom{top:0;}
+.reveal .centrate{top: 40px;}
+.reveal .insert-img{margin: 70px 0 0 15%;}
+.reveal .insert-img img{max-width:100%; max-height: 100%;}
+.reveal .text-alone{width: 78%; color:#3E3D3D; margin-top:70px; text-align:left;font-size:25px; font-family: 'latoregular';}
+.reveal .text-alone p{padding:15px 0;}
 .reveal .ordernum{width: 20%;font-size: 146px;color: white;float: left;margin-top: 115px; margin-left: 10%;}
 .keyimag{float: left;}
 .reveal .empty{margin-left:28%;}
