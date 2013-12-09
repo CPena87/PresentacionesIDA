@@ -253,7 +253,11 @@ body {
     bottom:450px;
 }
 .reveal .subtitle{position: absolute;left: 580px; font-family: 'latolight';font-size: 37px;color: #353536;width: 70%}
-.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:130px;}
+.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:130px; width:60%;}
+.reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:30%;}
+.reveal .subtitlenod-left{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
+.reveal .img-right{float: left;margin-left: 46%;width: 50%;}
+.reveal .img-left{float: left; margin-left: -1%;max-width: 50%;}
 .reveal .container{margin-top:120px;}
 .reveal .minor{bottom:460px;}
 .reveal .minor img{bottom:480px;}
@@ -261,11 +265,19 @@ body {
 .reveal .medium img{bottom: 360px;}
 .reveal .mayor{bottom: 580px;}
 .reveal .mayor img{bottom:600px;}
+.reveal .down{bottom:400px;}
+.reveal .down img{bottom:425px;}
 .reveal .inferior{margin-bottom:50px;}
 .reveal .img-single{left: 45%;max-width: 60%;position: relative;bottom: 250px;}
-.reveal .justleft-text{width: 78%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
+.reveal .justleft-text{width: 75%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
+.reveal .justright-text{width: 78%; color:#3E3D3D; margin-top:130px; margin-left:70%; text-align:left;font-size:25px; font-family: 'latoregular'; float:right;}
+.reveal .justright-single{width: 75%; color:#3E3D3D; margin-top:12px; margin-left: 47%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .quitmargin{margin-top:75px;}
+.reveal .nomargin{margin-top:0; margin-left:50%;}
+.reveal .addmargin{margin-left: 53%;}
+.reveal .addmargin-title{margin-left: 25.5%;}
+.reveal .addmargin-img{margin-left:52%;}
 .reveal .to-down{position: relative; top: 170px; left: 5%;}
 .about{display:block;text-align: left; color: black;}
 .about h5{color:#CA4E31; display:block; text-align:left; margin-bottom: 5px; font-family:'latobold'; font-size:25px;}
