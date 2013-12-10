@@ -253,9 +253,10 @@ body {
     bottom:450px;
 }
 .reveal .subtitle{position: absolute;left: 580px; font-family: 'latolight';font-size: 37px;color: #353536;width: 70%}
-.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:130px; width:60%;}
+.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:130px; max-width:100%;}
 .reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:30%;}
 .reveal .subtitlenod-left{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
+.reveal .breadcrumb{float: left; font-family: 'latolight'; font-size: 25px; color: #868585; margin-top: 13px; margin-left: 58%;}
 .reveal .img-right{float: left;margin-left: 32%;width: 100%; }
 .reveal .img-left{float: left; margin-left: -1%;}
 .reveal .container{margin-top:120px;}
@@ -273,12 +274,14 @@ body {
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .justright-text{width: 78%; color:#3E3D3D; margin-top:130px; margin-left:70%; text-align:left;font-size:25px; font-family: 'latoregular'; float:right;}
 .reveal .justright-single{width: 75%; color:#3E3D3D; margin-top:12px; margin-left: 47%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
+.reveal .last-text{float: left; margin-top:0;}
 .reveal .quitmargin{margin-top:75px;}
 .reveal .nomargin{margin-top:0; margin-left:50%;}
 .reveal .addmargin{margin-left: 53%;}
 .reveal .addmargin-title{margin-left: 25.5%;}
 .reveal .addmargin-img{margin-left:34%;}
 .reveal .to-down{position: relative; top: 170px; left: 5%;}
+.reveal .element{width:100%;}
 .about{display:block;text-align: left; color: black;}
 .about h5{color:#CA4E31; display:block; text-align:left; margin-bottom: 5px; font-family:'latobold'; font-size:25px;}
 .about p{color:#6E6E6E; display:block; text-align:left; margin-bottom: 25px; font-family:'latoregular'; font-size:21px;}
@@ -304,7 +307,7 @@ body {
 .reveal .subtitle-small{margin:110px 0 0; float:left; font-size: 25px; font-family:'latolight';}
 .reveal .title{margin: 150px 100px 0 0; text-align: left; font-size: 60px;}
 
-.reveal .last{margin-right: 0;}
+.reveal .last{margin-right: 0; margin-top:0;}
 /*********************************************
  * IMAGES
  *********************************************/
