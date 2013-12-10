@@ -232,13 +232,15 @@ body {
 .right-text date{
     font-size: 24px;
     position: absolute;
-    left: 400px;
+    left: 470px;
     top: 525px;
     width: 100%;}
 
 
 /*// Paginas Normales //*/
-.reveal .orangelogo{max-width:50%; height:auto;}
+.reveal .top{width:90%; display: block;}
+.reveal .top ul{list-style:none; display: block;}
+.reveal .orangelogo{max-width:50%; height:auto; list-style:none;}
 .reveal .orangelogo img{
     position: absolute;
     right: 905px;
@@ -252,11 +254,12 @@ body {
     height: auto;
     bottom:450px;
 }
-.reveal .subtitle{position: absolute;left: 580px; font-family: 'latolight';font-size: 37px;color: #353536;width: 70%}
-.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:130px; max-width:100%;}
+.reveal .content{width:100%; height:auto; margin-top:130px;}
+.reveal .subtitle{font-family: 'latolight';font-size: 37px;color: #353536;width: inherit;list-style: none;margin-left: 75%;}
+.reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:0; margin-right:40%}
 .reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:30%;}
 .reveal .subtitlenod-left{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
-.reveal .breadcrumb{float: left; font-family: 'latolight'; font-size: 25px; color: #868585; margin-top: 13px; margin-left: 58%;}
+.reveal .breadcrumb{float: left;font-family: 'latolight';font-size: 25px;color: #868585;margin-top: 0px;margin-left: 58%;list-style: none;}
 .reveal .img-right{float: left;margin-left: 32%;width: 100%; }
 .reveal .img-left{float: left; margin-left: -1%;}
 .reveal .container{margin-top:120px;}
@@ -270,8 +273,9 @@ body {
 .reveal .down img{bottom:425px;}
 .reveal .inferior{margin-bottom:50px;}
 .reveal .img-single{left: 45%;max-width: 60%;position: relative;bottom: 250px;}
-.reveal .justleft-text{width: 75%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
+.reveal .justleft-text{width: 60%; color:#3E3D3D; margin-top:0; text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
+.reveal .justleft-single + .bolder{font-family:'latobold';}/*Aplicar dentro de strong*/
 .reveal .justright-text{width: 78%; color:#3E3D3D; margin-top:130px; margin-left:70%; text-align:left;font-size:25px; font-family: 'latoregular'; float:right;}
 .reveal .justright-single{width: 75%; color:#3E3D3D; margin-top:12px; margin-left: 47%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .last-text{float: left; margin-top:0;}
@@ -291,14 +295,16 @@ body {
 .reveal .list-long{width:90%; position: relative;bottom: 70px;color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none;}
 .reveal .list-long ul li{margin:35px 0;}
 .reveal .list-long img{margin: 25px 10px -15px -61px;}
-.reveal .list-single{width:40%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none; margin: 130px 7% 0 3%;}
+.reveal .list-single{width:42%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none; margin: 130px 9.5% 0 3%;}
 .reveal .list-single ul li{margin:35px 0;}
 .reveal .list-single img{margin: 25px 10px -15px -61px;}
 .graphic{width:70%; float: left;}
 .reveal .takebottom{top:0;}
 .reveal .centrate{top: 40px;}
-.reveal .insert-img{margin: 70px 0 0 15%;}
-.reveal .insert-img img{max-width:100%; max-height: 100%;}
+/*Correspondientes a los estilos de imagenes unicas en una viñeta*/
+.reveal .insert-img{margin: 0 0 0 15%;}
+.reveal .insert-img img{max-width:100%; max-height: 100%; margin-top:0;}
+
 .reveal .text-alone{width: 78%; color:#3E3D3D; margin-top:70px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .text-alone p{padding:15px 0;}
 .reveal .ordernum{width: 20%;font-size: 146px;color: white;float: left;margin-top: 115px; margin-left: 10%;}
@@ -307,7 +313,10 @@ body {
 .reveal .subtitle-small{margin:110px 0 0; float:left; font-size: 25px; font-family:'latolight';}
 .reveal .title{margin: 150px 100px 0 0; text-align: left; font-size: 60px;}
 
-.reveal .last{margin-right: 0; margin-top:0;}
+.reveal .last{margin-right: 0; margin-top:130px;} /* Se aplica en el ultimo parrafo de derecha a izquierda */
+.reveal .list-nomargin{margin-top:0;}
+.reveal .last-position{position: relative; left: 60%;bottom: 326px;} /* Se aplica a parrafos o imagenes apilados hacia la derecha */
+.reveal .ended{margin: 45px 80% 50px 0;}/* Se aplica en el titulo en caso de estar acompañado por otro parrafo */
 /*********************************************
  * IMAGES
  *********************************************/
