@@ -241,21 +241,12 @@ body {
 .reveal .top{width:90%; display: block;}
 .reveal .top ul{list-style:none; display: block;}
 .reveal .orangelogo{max-width:50%; height:auto; list-style:none;}
-.reveal .orangelogo img{
-    position: absolute;
-    right: 905px;
-    max-width: 95%;
-    height: auto;
-    margin: 0 10px -15px 0;}
-.reveal .whitelogo img{
-    position: absolute;
-    right: 905px;
-    max-width:95%;
-    height: auto;
-    bottom:450px;
-}
+.reveal .orangelogo img{position: absolute;right: 1250px;max-width: 95%;height: auto;margin: 0 10px -15px 0;}
+.reveal .whitelogo img{position: absolute;right: 1250px;max-width:95%;height: auto;bottom:450px;}
+
+/* Estilos correspondientes a campo de contenido y subtitulos */
 .reveal .content{width:100%; height:auto; margin-top:130px;}
-.reveal .subtitle{font-family: 'latolight';font-size: 37px;color: #353536;width: inherit;list-style: none;margin-left: 75%;}
+.reveal .subtitle{font-family: 'latolight';font-size: 37px;color: #353536;width: inherit;list-style: none;margin-left: 70%;}
 .reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:0; margin-right:40%}
 .reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:30%;}
 .reveal .subtitlenod-left{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
@@ -272,24 +263,22 @@ body {
 .reveal .down{bottom:400px;}
 .reveal .down img{bottom:425px;}
 .reveal .inferior{margin-bottom:50px;}
-.reveal .img-single{left: 45%;max-width: 60%;position: relative;bottom: 250px;}
+.reveal .img-single{left: 30%;max-width: 60%;position: relative;bottom: 250px;}
+
+/* Estilos correspondientes a parrafos de texto */
 .reveal .justleft-text{width: 60%; color:#3E3D3D; margin-top:0; text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
-.reveal .justleft-single + .bolder{font-family:'latobold';}/*Aplicar dentro de strong*/
 .reveal .justright-text{width: 78%; color:#3E3D3D; margin-top:130px; margin-left:70%; text-align:left;font-size:25px; font-family: 'latoregular'; float:right;}
 .reveal .justright-single{width: 75%; color:#3E3D3D; margin-top:12px; margin-left: 47%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .last-text{float: left; margin-top:0;}
-.reveal .quitmargin{margin-top:75px;}
-.reveal .nomargin{margin-top:0; margin-left:50%;}
-.reveal .addmargin{margin-left: 53%;}
-.reveal .addmargin-title{margin-left: 25.5%;}
-.reveal .addmargin-img{margin-left:34%;}
-.reveal .to-down{position: relative; top: 170px; left: 5%;}
+
 .reveal .element{width:100%;}
 .about{display:block;text-align: left; color: black;}
 .about h5{color:#CA4E31; display:block; text-align:left; margin-bottom: 5px; font-family:'latobold'; font-size:25px;}
 .about p{color:#6E6E6E; display:block; text-align:left; margin-bottom: 25px; font-family:'latoregular'; font-size:21px;}
-.about .down{margin-top:175px;}
+
+
+/* Estilos Correspondientes a listas de contenidos ya sean 2 o 1 columna */
 .reveal .list-number{width:70%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none;}
 .reveal .list-number ul li{margin:35px 0;}
 .reveal .list-long{width:90%; position: relative;bottom: 70px;color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none;}
@@ -298,13 +287,17 @@ body {
 .reveal .list-single{width:42%; color:#353536; display:block; font-family:'latoregular'; font-size:25px; float: left; list-style:none; margin: 130px 9.5% 0 3%;}
 .reveal .list-single ul li{margin:35px 0;}
 .reveal .list-single img{margin: 25px 10px -15px -61px;}
+
+
 .graphic{width:70%; float: left;}
 .reveal .takebottom{top:0;}
 .reveal .centrate{top: 40px;}
+
 /*Correspondientes a los estilos de imagenes unicas en una viñeta*/
-.reveal .insert-img{margin: 0 0 0 15%;}
+.reveal .insert-img{margin: 0 0 0 12%;}
 .reveal .insert-img img{max-width:100%; max-height: 100%; margin-top:0;}
 
+/* Adiciones extra a estilos de parrafo */
 .reveal .text-alone{width: 78%; color:#3E3D3D; margin-top:70px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .text-alone p{padding:15px 0;}
 .reveal .ordernum{width: 20%;font-size: 146px;color: white;float: left;margin-top: 115px; margin-left: 10%;}
@@ -313,10 +306,26 @@ body {
 .reveal .subtitle-small{margin:110px 0 0; float:left; font-size: 25px; font-family:'latolight';}
 .reveal .title{margin: 150px 100px 0 0; text-align: left; font-size: 60px;}
 
+/* Estilos correspondientes a planilla de personal */
+.reveal .pilar-content{width: 31%;margin: 60px 2% 0 0;float: left;}
+.reveal .staff{float: left;margin: 5px 1% 0 0;}
+.reveal .staff img{float: left;margin: 0px 0px 6px 0;max-width: 95%;}
+.reveal .persontitle{font-family: 'latolight';font-size: 21px;margin: 0px 0 0 0;display: block;color: #2E2E2E;text-align: left;}
+.reveal .staff p{float: left;margin: 17px 0 9px;font-family: 'latoregular';font-size: 15px;display: block;color: #2E2E2E; }
+
+/* Adiciones y sustracciones de margenes o alturas por Position */
+.reveal .quitmargin{margin-top:75px;}
+.reveal .nomargin{margin-top:0; margin-left:50%;}
+.reveal .addmargin{margin-left: 53%;}
+.reveal .addmargin-title{margin-left: 25.5%;}
+.reveal .addmargin-img{margin-left:34%;}
+.about .down{margin-top:175px;}
+.reveal .to-down{position: relative; top: 170px; left: 5%;}
 .reveal .last{margin-right: 0; margin-top:130px;} /* Se aplica en el ultimo parrafo de derecha a izquierda */
 .reveal .list-nomargin{margin-top:0;}
 .reveal .last-position{position: relative; left: 60%;bottom: 326px;} /* Se aplica a parrafos o imagenes apilados hacia la derecha */
 .reveal .ended{margin: 45px 80% 50px 0;}/* Se aplica en el titulo en caso de estar acompañado por otro parrafo */
+
 /*********************************************
  * IMAGES
  *********************************************/
