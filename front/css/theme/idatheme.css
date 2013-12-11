@@ -246,12 +246,12 @@ body {
 
 /* Estilos correspondientes a campo de contenido y subtitulos */
 .reveal .content{width:100%; height:auto; margin-top:130px;}
-.reveal .subtitle{font-family: 'latolight';font-size: 37px;color: #353536;width: inherit;list-style: none;margin-left: 70%;}
+.reveal .subtitle{font-family: 'latolight';font-size: 37px;color: #353536;width: inherit;list-style: none;margin-left: 65%;}
 .reveal .subtitle-less{float: left; font-family: 'latolight'; font-size: 35px; color: #353536; margin-top:0; margin-right:40%}
-.reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:30%;}
-.reveal .subtitlenod-left{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
+.reveal .subtitlenod-right{float: left; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; width:95%; margin-left:18%;}
+.reveal .subtitlenod-left{width:32%; font-family: 'latolight'; font-size: 55px; color: #353536; margin-top:0px; margin-left:0%;}
 .reveal .breadcrumb{float: left;font-family: 'latolight';font-size: 25px;color: #868585;margin-top: 0px;margin-left: 58%;list-style: none;}
-.reveal .img-right{float: left;margin-left: 32%;width: 100%; }
+.reveal .img-right{float: left;margin-left: 19.5%;width: 100%; }
 .reveal .img-left{float: left; margin-left: -1%;}
 .reveal .container{margin-top:120px;}
 .reveal .minor{bottom:460px;}
@@ -269,7 +269,7 @@ body {
 .reveal .justleft-text{width: 60%; color:#3E3D3D; margin-top:0; text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .justleft-single{width:52%; color:#3E3D3D; margin-top:130px; text-align:left;font-size:25px; font-family: 'latoregular';}
 .reveal .justright-text{width: 78%; color:#3E3D3D; margin-top:130px; margin-left:70%; text-align:left;font-size:25px; font-family: 'latoregular'; float:right;}
-.reveal .justright-single{width: 75%; color:#3E3D3D; margin-top:12px; margin-left: 47%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
+.reveal .justright-single{width: 60%; color:#3E3D3D; margin-top:12px; margin-left: 43%;text-align:left;font-size:25px; font-family: 'latoregular'; float:left;}
 .reveal .last-text{float: left; margin-top:0;}
 
 .reveal .element{width:100%;}
@@ -315,10 +315,10 @@ body {
 
 /* Adiciones y sustracciones de margenes o alturas por Position */
 .reveal .quitmargin{margin-top:75px;}
-.reveal .nomargin{margin-top:0; margin-left:50%;}
-.reveal .addmargin{margin-left: 53%;}
-.reveal .addmargin-title{margin-left: 25.5%;}
-.reveal .addmargin-img{margin-left:34%;}
+.reveal .nomargin{margin-top:0; margin-left:48%;}
+.reveal .addmargin{margin-left: 48%;}
+.reveal .addmargin-title{margin-left: 15%;}
+.reveal .addmargin-img{margin-left:21%;}
 .about .down{margin-top:175px;}
 .reveal .to-down{position: relative; top: 170px; left: 5%;}
 .reveal .last{margin-right: 0; margin-top:130px;} /* Se aplica en el ultimo parrafo de derecha a izquierda */
